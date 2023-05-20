@@ -1,7 +1,11 @@
 import NavBar from "..//components/navBar";
 import Nfot from "..//components/nfot";
+
+
 import ViewProjects from "../components/ViewProjects";
 import { ClientOnly } from "../components/client";
+
+
 import { ProjectProvider } from "../provider/ProjectsProvider";
 import '../globals.css';
 

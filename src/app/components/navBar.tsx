@@ -57,7 +57,7 @@ export default function NavBar() {
 
                 <li className="text-white">
                   <Link id="pes"href="/about3">
-                    Descubre cómo puedo ayudarte
+                    ¡Descubre cómo puedo ayudarte!
                   </Link>
                 </li>
                 

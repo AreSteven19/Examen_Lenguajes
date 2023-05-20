@@ -33,12 +33,12 @@ export default function Page() {
 <br />
     <h1>Experiencia: </h1>
     <br />
-    <ul>
-        <li>JavaScript: He trabajado con JavaScript durante varios proyectos y estoy familiarizado con los conceptos y las principales librerías y frameworks como React .</li>
-        <li>React: Tengo experiencia en el desarrollo de aplicaciones web utilizando React, creando componentes reutilizables y utilizando el enfoque basado en componentes para crear interfaces de usuario dinámicas.</li>
-        <li>Java: También tengo conocimientos en el lenguaje de programación Java y he trabajado en proyectos utilizando el framework Spring para el desarrollo de aplicaciones empresariales.</li>
+    
+        <p>JavaScript: He trabajado con JavaScript durante varios proyectos y estoy familiarizado con los conceptos y las principales librerías y frameworks como React .</p>
+        <p>React: Tengo experiencia en el desarrollo de aplicaciones web utilizando React, creando componentes reutilizables y utilizando el enfoque basado en componentes para crear interfaces de usuario dinámicas.</p>
+        <p>Java: También tengo conocimientos en el lenguaje de programación Java y he trabajado en proyectos utilizando el framework Spring para el desarrollo de aplicaciones empresariales.</p>
        
-    </ul>
+    
 <br />
     <h1>Intereses y Habilidades: </h1>
     <br />

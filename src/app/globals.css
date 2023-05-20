@@ -303,12 +303,12 @@ texto de la pagina 1
   animation: tecnologia 4s linear infinite;
 }
 
+
 #welcome-content{
   text-align: center; /* Centrar el texto */
   padding-top: 27px;
-  margin: 0 40px;
+  margin: 0 60px;
   font-size: 22px;
-  margin-left: -250px;
 }
 
 #welcome-content h1 {
