@@ -18,10 +18,194 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(personas.jpg);
 }
+
+a{
+   
+  margin-top: -10px;
+  transition: font-size 0.3s;
+    
+  
+  
+}
+
+a:hover {
+  font-size: 1.3em; 
+    animation: arcoiris 5s linear infinite;
+  }
+  
+  @keyframes arcoiris {
+    0% {
+      color: red;
+      border-radius: 20px;
+    }
+    14% {
+      color: orange;
+      border-radius: 20px;
+    }
+    28% {
+      color: yellow;
+      border-radius: 20px;
+    }
+    42% {
+     color: green;
+      border-radius: 20px;
+    }
+    57% {
+      color: blue;
+      border-radius: 20px;
+    }
+    71% {
+      color: indigo;
+      border-radius: 20px;
+    }
+    85% {
+      color: violet;
+      border-radius: 20px;
+    }
+    100% {
+      color: red;
+      border-radius: 20px;
+    }
+  }
+
+ #nave{
+  background-color: rgb(9, 9, 9);
+  border-radius: 5px;
+  height: 90px;
+  font-weight: bold;
+ }
+
+ #imagen{
+  width: 200px; /* Ancho de la imagen */
+  height: 70px;
+  margin-top: -10px;
+ }
+
+ #texto{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+ }
+
+ #Are{
+  
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+   
+  bottom: -20px;
+
+ }
+
+ /*
+CSS del footer
+ */
+
+
+
+#footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+padding-top: 20px;
+  
+
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+#contact-info {
+  text-align: right;
+}
+
+#contact-info p {
+  margin: 5px 0;
+}
+
+
+
+
+
+/*
+texto de la pagina 1
+*/
+
+#welcome-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#welcome-content {
+  flex: 1;
+}
+
+#image-container {
+  width: 200px;
+  margin-left: 20px;
+}
+
+#profile-image {
+  width: 100%;
+  height: auto;
+}
+
+#titulo-texto{
+  display: flex;
+  text-align: center;
+  font-size: 40px;
+}
+
+#texto3{
+  font-size: 24px;
+}
+
+@keyframes rainbowBorder {
+  0% {
+    border-color: red;
+  }
+  10% {
+    border-color: orange;
+  }
+  20% {
+    border-color: yellow;
+  }
+  30% {
+    border-color: green;
+  }
+  40% {
+    border-color: blue;
+  }
+  50% {
+    border-color: indigo;
+  }
+  60% {
+    border-color: violet;
+  }
+  100% {
+    border-color: red;
+  }
+}
+
+#git {
+ background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid;
+  animation: rainbowBorder 5s infinite;
+}
+
