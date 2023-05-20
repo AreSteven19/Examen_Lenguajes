@@ -12,42 +12,44 @@ export default function Page() {
 
 
 
-    
+
     <div className="cuerpo">
-    
-      
+
+
       <ProjectProvider>
 
-      
-      <div>
-        <NavBar />
-      </div>
 
-      <div className="contenido">
-      <h1>Mis proyectos</h1>
+        <div>
+          <NavBar />
+        </div>
 
-      <ViewProjects />
+        <div className="contenido">
+          <h1>Mis proyectos</h1>
 
-      </div>
+          <ViewProjects />
 
+        </div>
 
-      <div >
-        <Nfot />
-      </div>
+       
 
 
+        <div id='footer4'>
+          <Nfot />
+        </div>
 
 
 
-    
+
+
+
 
       </ProjectProvider>
 
-      
+
 
     </div>
 
-   
+
 
 
 
