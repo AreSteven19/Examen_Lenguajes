@@ -3,7 +3,7 @@ import Nfot from "..//components/nfot";
 import ViewProjects from "../components/ViewProjects";
 import { ClientOnly } from "../components/client";
 import { ProjectProvider } from "../provider/ProjectsProvider";
-
+import '../globals.css';
 
 export default function Page() {
   //pagina 2
@@ -24,7 +24,7 @@ export default function Page() {
         </div>
 
         <div className="contenido">
-          <h1>Mis proyectos</h1>
+          <h1 id="tituloproyecto">Mis proyectos.</h1>
 
           <ViewProjects />
 
@@ -36,6 +36,7 @@ export default function Page() {
         <div id='footer4'>
           <Nfot />
         </div>
+        
 
 
 

@@ -47,12 +47,20 @@ export default function NavBar() {
                   <Link href="/">
                     Inicio
                   </Link>
-                </li>                
+                </li>     
+
                 <li className="text-white">
                   <Link id="pes"href="/about">
                     Mis proyectos
                   </Link>
                 </li>
+
+                <li className="text-white">
+                  <Link id="pes"href="/about3">
+                    Descubre cómo puedo ayudarte
+                  </Link>
+                </li>
+                
                 <li className="text-white">
                   <Link id='pes'href="/about2">
                     Acerca de mí
